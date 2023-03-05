@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5010fc87.css",
+    "main.js": "/static/js/main.84db0401.js",
+    "static/media/wal2.jpg": "/static/media/wal2.4b487e8c93ac15b8ef52.jpg",
+    "static/media/starbucks1.png": "/static/media/starbucks1.6343b414f528f9e7d91a.png",
+    "static/media/coffe.png": "/static/media/coffe.8ad5ba27d92144af0c1d.png",
+    "index.html": "/index.html",
+    "main.5010fc87.css.map": "/static/css/main.5010fc87.css.map",
+    "main.84db0401.js.map": "/static/js/main.84db0401.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5010fc87.css",
+    "static/js/main.84db0401.js"
+  ]
+}
