@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import {React, Component, Fragment} from "react";
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from "./component/Home/Home";
+import Menu from "./component/Menu/Menu";
+import Serveices from "./component/Serveices/Serveices";
+import About from "./component/About/About";
+import FAQ from "./component/FAQ/FAQ";
+import Nav1 from './component/NAVs/nav1';
+import Curd from "./component/Curd/Curd";
+class App extends Component{
+render(){
+    return(
+      <BrowserRouter>
+        <Nav1 />
+        <Routes>
+          <Route exact="true" path="/" element={<Home />} />
+          <Route path="/Menu" element={<Menu />} />
+          <Route path="/Curd" element={<Curd />} />
+          <Route path="/Serveices" element={<Serveices />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/FAQ" element={<FAQ />} />
+        </Routes>
+      </BrowserRouter>
+    );  
+  }
 }
-
 export default App;

@@ -1,0 +1,121 @@
+.todoTable{
+    font-size: 1.5rem;
+}
+.todoTable thead td, .todoTable tbody td{
+    padding: 10px;
+    background-color: #ddd;
+}
+.con1{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    height: auto;
+    position: relative;
+    padding: 2rem !important;
+    
+}
+/* @media screen and (min-width: 767px) {
+    .con1{
+        height: 80vh;
+}
+} */
+.con1::before{
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: url(./../img/wal2.jpg) center no-repeat;
+    background-size: cover;
+    filter: blur(2px);
+    z-index: -1; 
+}
+.ccc{
+    height: auto;
+    border-radius: 5px;
+}
+/* .ccc .ddd{
+    padding-left: 4rem;
+} */
+.ccc h1, .ccc p{
+    margin-bottom: 2rem;
+    color: #f5f5f5;
+}
+.ccc h1{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+}
+.ccc h1::first-letter{
+    font-weight: bolder;
+    font-size: 80px;
+    color: #ebff3c;
+}
+.ccc button{
+    margin-right: 0.5rem;
+    border: none;
+    padding: 10px;
+    transition: all 0.3s;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #00000089;
+    color: #fff;
+}
+.ccc button:nth-child(3){
+    background-color: #00000000;
+}
+.ccc button:nth-child(3):hover{
+    background-color: #00704A;
+    color: #fff;
+    outline: 1px solid #00704A;    
+}
+.ccc button:nth-child(4){
+    background-color: #00000000;
+}
+.ccc button span{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 900;
+    margin-left: 1rem;
+}
+.ccc button span ion-icon{
+    margin: 0 0.5rem;
+}
+
+.ccc button:nth-child(4):hover{
+    background-color: #00704A;
+    color: #fff;
+    outline: 1px solid #00704A;    
+}
+.numbers{
+    background-color: #00704A;
+    color:#fff;
+    padding: 25px 0;
+    text-align: center;
+    overflow: hidden;
+    height: auto;
+    max-width: 100%;
+    /* margin: 30px 0; */
+}
+.numbers .row{
+    margin: 10px 0;
+}
+.numbers h2{
+    margin: 10px 0;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.numbers h6{
+    text-transform: uppercase;
+    
+}
+.imgdiv img{
+    max-width: 100% !important;
+}
+.section{
+    margin: 3rem auto;
+}
+.textdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
